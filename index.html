@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Hoang Quoc Duy | Senior Java Developer</title>
+    <style>
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-100%); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #e6f7ff, #f0f8ff);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            background: #ffffff;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 50px 0;
+            overflow: hidden;
+        }
+
+        h1 {
+            color: #007acc;
+            border-bottom: 3px solid #00bfff;
+            padding-bottom: 10px;
+            animation: slideIn 1s ease-out;
+        }
+
+        .section {
+            margin: 20px 0;
+            opacity: 0;
+            animation: fadeIn 1.2s ease-out forwards;
+        }
+
+        .section-title {
+            color: #ff6600;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+            border-left: 5px solid #ff6600;
+            padding-left: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        p, li {
+            color: #333;
+            line-height: 1.8;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007acc;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            color: #ff4500;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .contact a {
+            display: inline-block;
+            background: linear-gradient(135deg, #007acc, #00bfff);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-right: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .contact a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4);
+        }
+
+        .annotation {
+            font-size: 14px;
+            color: #666;
+            background: #f5f5f5;
+            border-left: 4px solid #007acc;
+            padding: 8px 12px;
+            margin-top: 5px;
+            animation: slideIn 0.8s ease-out;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Hoang Quoc Duy</h1>
+    <p><b>Position:</b> Senior Java Spring Boot Developer</p>
+    <p><b>Experience:</b> 5+ years</p>
+    <p><b>Email:</b> <a href="mailto:hoangquocduy@example.com">hoangquocduy@example.com</a></p>
+    <p><b>Phone:</b> +84 988 xxx 888</p>
+
+    <div class="section">
+        <div class="section-title">About Me</div>
+        <p>Senior Backend Developer with <b>5+ years of experience</b> in Java and Spring Boot. Passionate about building scalable microservices, optimizing high-performance systems, and solving complex backend challenges.</p>
+        <div class="annotation">✨ Love clean code, system design, and solving performance bottlenecks.</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <ul>
+            <li>Languages: Java, Kotlin</li>
+            <li>Frameworks: Spring Boot, Spring Cloud</li>
+            <li>Messaging: Kafka, RabbitMQ</li>
+            <li>Databases: MySQL, PostgreSQL, MongoDB</li>
+            <li>Cloud/DevOps: Docker, Kubernetes, AWS (EC2, Lambda, S3)</li>
+            <li>Processes: CI/CD (Jenkins, GitHub Actions), Agile/Scrum</li>
+        </ul>
+        <div class="annotation">🔧 Strong in distributed systems & microservices design.</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Work Experience</div>
+        <p><b>Company A (2020 - 2024)</b> - Senior Backend Developer</p>
+        <ul>
+            <li>Developed real-time payment processing system.</li>
+            <li>Architected microservices using Spring Cloud & Kafka.</li>
+            <li>Optimized system to handle millions of transactions/day.</li>
+        </ul>
+        <p><b>Company B (2018 - 2020)</b> - Java Developer</p>
+        <ul>
+            <li>Built ERP system using Spring Boot & Kafka.</li>
+            <li>Developed 3rd-party API integrations & monitoring dashboards.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        <p>University of Information Technology, VNUHCM (2011 - 2015)</p>
+        <div class="annotation">📜 Bachelor in Computer Science.</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Certifications</div>
+        <ul>
+            <li>Oracle Certified Java Programmer (OCJP)</li>
+            <li>Spring Professional Certification</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Highlight Project</div>
+        <p>Personal project: Built an <b>AI-powered chatbot</b> using WebSockets & Kafka, enabling real-time conversations through Spring Boot backend.</p>
+        <div class="annotation">🚀 Applied both event-driven architecture & AI integration.</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Portfolio & Contact</div>
+        <div class="contact">
+            <a href="https://github.com/hoangquocduy">GitHub</a>
+            <a href="https://linkedin.com/in/hoangquocduy">LinkedIn</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
